@@ -1,0 +1,79 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Sprites/UI/plashka.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/Panel.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/InventItem.tscn" type="PackedScene" id=3]
+
+[node name="Panel" type="NinePatchRect"]
+margin_right = 253.0
+margin_bottom = 129.0
+texture = ExtResource( 1 )
+patch_margin_left = 2
+patch_margin_top = 2
+patch_margin_right = 2
+patch_margin_bottom = 2
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Scroll" type="ScrollContainer" parent="."]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 245.0
+margin_bottom = 124.0
+
+[node name="Grid" type="GridContainer" parent="Scroll"]
+margin_right = 312.0
+margin_bottom = 104.0
+custom_constants/hseparation = 24
+columns = 4
+
+[node name="InventItem" parent="Scroll/Grid" instance=ExtResource( 3 )]
+margin_right = 60.0
+
+[node name="InventItem2" parent="Scroll/Grid" instance=ExtResource( 3 )]
+margin_left = 84.0
+margin_right = 144.0
+
+[node name="InventItem3" parent="Scroll/Grid" instance=ExtResource( 3 )]
+margin_left = 168.0
+margin_right = 228.0
+
+[node name="InventItem4" parent="Scroll/Grid" instance=ExtResource( 3 )]
+margin_left = 252.0
+margin_right = 312.0
+
+[node name="InventItem5" parent="Scroll/Grid" instance=ExtResource( 3 )]
+margin_top = 36.0
+margin_right = 60.0
+margin_bottom = 68.0
+
+[node name="InventItem6" parent="Scroll/Grid" instance=ExtResource( 3 )]
+margin_left = 84.0
+margin_top = 36.0
+margin_right = 144.0
+margin_bottom = 68.0
+
+[node name="InventItem7" parent="Scroll/Grid" instance=ExtResource( 3 )]
+margin_left = 168.0
+margin_top = 36.0
+margin_right = 228.0
+margin_bottom = 68.0
+
+[node name="InventItem8" parent="Scroll/Grid" instance=ExtResource( 3 )]
+margin_left = 252.0
+margin_top = 36.0
+margin_right = 312.0
+margin_bottom = 68.0
+
+[node name="InventItem9" parent="Scroll/Grid" instance=ExtResource( 3 )]
+margin_top = 72.0
+margin_right = 60.0
+margin_bottom = 104.0
+
+[node name="InventItem10" parent="Scroll/Grid" instance=ExtResource( 3 )]
+margin_left = 84.0
+margin_top = 72.0
+margin_right = 144.0
+margin_bottom = 104.0

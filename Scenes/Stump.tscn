@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Sprites/pen.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/Nature_object.gd" type="Script" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 14.6359, 13.203 )
+
+[node name="Stump" type="StaticBody2D"]
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+centered = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 15.3845, 15.3845 )
+shape = SubResource( 1 )

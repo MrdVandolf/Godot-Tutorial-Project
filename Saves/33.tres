@@ -1,0 +1,706 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/Resources/SaveData.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+save_name = "33"
+data = {
+"animals": [ {
+"bite_strength": 10,
+"default_speed": 45,
+"filename": "res://Scenes/AngryAnimal.tscn",
+"hp": 45,
+"max_hp": 60,
+"position": Vector2( 582.363, 659.273 ),
+"speed": 45
+}, {
+"bite_strength": 10,
+"default_speed": 45,
+"filename": "res://Scenes/AngryAnimal.tscn",
+"hp": 45,
+"max_hp": 60,
+"position": Vector2( 762.134, 311.392 ),
+"speed": 45
+}, {
+"bite_strength": 10,
+"default_speed": 45,
+"filename": "res://Scenes/AngryAnimal.tscn",
+"hp": 45,
+"max_hp": 60,
+"position": Vector2( 242.68, 951.99 ),
+"speed": 45
+}, {
+"bite_strength": 10,
+"default_speed": 45,
+"filename": "res://Scenes/AngryAnimal.tscn",
+"hp": 45,
+"max_hp": 60,
+"position": Vector2( 1046.36, 822.02 ),
+"speed": 45
+} ],
+"filename": "res://Scenes/Tilemap.tscn",
+"items": [ {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 80, 245 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 630, 691 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 300, 44 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 230, 443 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "branch",
+"position": Vector2( 1698, 16 ),
+"stack_limit": 4
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "branch",
+"position": Vector2( 1202, 458 ),
+"stack_limit": 4
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 630, 996 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 216, 120 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 32, 613 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 1086, 602 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 1375, 317 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 1430, 436 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 1814, 80 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 474, 428 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 367, 1284 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 897, 725 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 1696, 639 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 1559, 725 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 1779, 577 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 1394, 915 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 652, 96 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 938, 849 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "branch",
+"position": Vector2( 906, 527 ),
+"stack_limit": 4
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 113, 87 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 1216, 1024 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 1636, 369 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 1288, 619 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 1304, 763 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 620, 982 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 1328, 114 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "branch",
+"position": Vector2( 909, 1257 ),
+"stack_limit": 4
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 510, 948 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 434, 722 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 135, 34 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 445, 1056 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 1305, 462 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 1059, 967 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 1320, 418 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "branch",
+"position": Vector2( 707, 1015 ),
+"stack_limit": 4
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "branch",
+"position": Vector2( 1371, 1219 ),
+"stack_limit": 4
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 764, 835 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "branch",
+"position": Vector2( 1178, 1164 ),
+"stack_limit": 4
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 1064, 99 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "branch",
+"position": Vector2( 225, 455 ),
+"stack_limit": 4
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 1558, 897 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 740, 574 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 1152, 754 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 618, 802 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 1157, 119 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "branch",
+"position": Vector2( 92, 1206 ),
+"stack_limit": 4
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "branch",
+"position": Vector2( 1841, 23 ),
+"stack_limit": 4
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "branch",
+"position": Vector2( 1526, 433 ),
+"stack_limit": 4
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 384, 918 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 804, 478 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 766, 462 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 1557, 917 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 1450, 762 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 1595, 684 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 946, 1013 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 1387, 267 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 1032, 636 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 1829, 1145 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 139, 1191 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 1387, 1032 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 1655, 795 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 284, 1277 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 153, 228 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 298, 662 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 941, 98 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 946, 1155 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 507, 409 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 934, 561 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 699, 436 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 1329, 184 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 498, 388 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 969, 987 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 818, 362 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 784, 280 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 1543, 1097 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 1297, 579 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 292, 424 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 963, 1252 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 950, 277 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "branch",
+"position": Vector2( 1265, 1029 ),
+"stack_limit": 4
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 1828, 374 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 437, 367 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "branch",
+"position": Vector2( 1565, 671 ),
+"stack_limit": 4
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "pebble",
+"position": Vector2( 327, 606 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 134, 166 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "branch",
+"position": Vector2( 1600, 712 ),
+"stack_limit": 4
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 213, 77 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 1040, 5 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 1791, 1163 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 1124, 114 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 1372, 419 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "apple",
+"position": Vector2( 724, 124 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "branch",
+"position": Vector2( 814, 941 ),
+"stack_limit": 4
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 1705, 850 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 768, 1300 ),
+"stack_limit": 8
+}, {
+"amount": 1,
+"filename": "res://Scenes/Item.tscn",
+"item": "prut",
+"position": Vector2( 1279, 1253 ),
+"stack_limit": 8
+} ],
+"nature": [ {
+"filename": "res://Scenes/Tree.tscn",
+"position": Vector2( 1117.03, 363.429 ),
+"texture": 1
+}, {
+"filename": "res://Scenes/Tree.tscn",
+"position": Vector2( 306.917, 595.127 ),
+"texture": 1
+}, {
+"filename": "res://Scenes/Stump.tscn",
+"position": Vector2( 754.137, 520.599 )
+}, {
+"filename": "res://Scenes/Cobble.tscn",
+"position": Vector2( 1240.56, 572.384 )
+}, {
+"filename": "res://Scenes/Tree.tscn",
+"position": Vector2( 576.762, 913.016 ),
+"texture": 2
+}, {
+"filename": "res://Scenes/Cobble.tscn",
+"position": Vector2( 960, 1024 )
+}, {
+"filename": "res://Scenes/Cobble.tscn",
+"position": Vector2( 1408, 800 )
+}, {
+"filename": "res://Scenes/Stump.tscn",
+"position": Vector2( 870.974, 145.829 )
+}, {
+"filename": "res://Scenes/Stump.tscn",
+"position": Vector2( 1472, 576.168 )
+}, {
+"filename": "res://Scenes/Stump.tscn",
+"position": Vector2( 1568, 1152 )
+}, {
+"filename": "res://Scenes/Cobble.tscn",
+"position": Vector2( 721.985, 699.225 )
+}, {
+"filename": "res://Scenes/Tree.tscn",
+"position": Vector2( 566.216, 433.823 ),
+"texture": 3
+}, {
+"filename": "res://Scenes/Tree.tscn",
+"position": Vector2( 1169.21, 1082.86 ),
+"texture": 3
+}, {
+"filename": "res://Scenes/Stump.tscn",
+"position": Vector2( 1760, 64 )
+}, {
+"filename": "res://Scenes/Tree.tscn",
+"position": Vector2( 512, 1152 ),
+"texture": 1
+} ],
+"player": {
+"filename": "res://Scenes/Player.tscn",
+"hp": 90,
+"inventory": {
+
+},
+"max_hp": 100,
+"position": Vector2( 201.996, 140.246 ),
+"speed": 200
+}
+}
