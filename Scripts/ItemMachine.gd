@@ -1,7 +1,7 @@
 extends Node
 
 var items = {
-	"apple": ["apple", 8, {"can_stack": true}],
+	"apple": ["apple", 8, {"can_stack": true, "function": "heal", "heal_val": 10, "expandable": true, "exp_rate": 1}],
 	"prut": ["prut", 8, {"can_stack": true}],
 	"pebble": ["pebble", 8, {"can_stack": true}],
 	"branch": ["branch", 4, {"can_stack": false}],

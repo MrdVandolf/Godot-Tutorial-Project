@@ -12,12 +12,20 @@ func _ready():
 	set_start_hp(self.hp, self.max_hp)
 	add_to_group(GlobalVars.entity_group)
 	create_inventory()
+	inventory.connect("on_changed", self, "update_inventory")
+
+
+func update_inventory():
+	ui.update_inventory(inventory)
+
+
+func drop_item(link):
+	world.add_lying_item(link, position.x, position.y)
+	inventory.remove_item(link)
 
 
 func pick(item):
 	var is_picked = .pick(item)
-	if is_picked:
-		ui.update_inventory(inventory.get_items())
 	return is_picked
 
 func _process(delta):
@@ -51,8 +59,10 @@ func _process(delta):
 	$DamagePos.position.y = clamp($DamagePos.position.y, -24, 40)
 
 func _unhandled_input(event):
+	
 	if event.is_action_pressed("inventory"):
-		ui.toggle_inventory(inventory.get_items())
+		ui.toggle_inventory(inventory)
+	
 	if event.is_action_pressed("left_click"):
 		var a = load("res://Scenes/DamageArea.tscn").instance()
 		a.set_damage(10)

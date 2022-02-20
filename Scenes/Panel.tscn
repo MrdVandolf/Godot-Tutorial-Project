@@ -7,6 +7,7 @@
 [node name="Panel" type="NinePatchRect"]
 margin_right = 253.0
 margin_bottom = 129.0
+rect_min_size = Vector2( 420, 0 )
 texture = ExtResource( 1 )
 patch_margin_left = 2
 patch_margin_top = 2
@@ -17,63 +18,91 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Scroll" type="ScrollContainer" parent="."]
-margin_left = 8.0
-margin_top = 8.0
-margin_right = 245.0
-margin_bottom = 124.0
+[node name="Box" type="HBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_top = 5.0
+margin_right = -5.0
+margin_bottom = -5.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="Grid" type="GridContainer" parent="Scroll"]
+[node name="Scroll" type="ScrollContainer" parent="Box"]
+margin_right = 324.0
+margin_bottom = 119.0
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 4.0
+
+[node name="Grid" type="GridContainer" parent="Box/Scroll"]
 margin_right = 312.0
 margin_bottom = 104.0
 custom_constants/hseparation = 24
 columns = 4
 
-[node name="InventItem" parent="Scroll/Grid" instance=ExtResource( 3 )]
+[node name="InventItem" parent="Box/Scroll/Grid" instance=ExtResource( 3 )]
 margin_right = 60.0
 
-[node name="InventItem2" parent="Scroll/Grid" instance=ExtResource( 3 )]
+[node name="InventItem2" parent="Box/Scroll/Grid" instance=ExtResource( 3 )]
 margin_left = 84.0
 margin_right = 144.0
 
-[node name="InventItem3" parent="Scroll/Grid" instance=ExtResource( 3 )]
+[node name="InventItem3" parent="Box/Scroll/Grid" instance=ExtResource( 3 )]
 margin_left = 168.0
 margin_right = 228.0
 
-[node name="InventItem4" parent="Scroll/Grid" instance=ExtResource( 3 )]
+[node name="InventItem4" parent="Box/Scroll/Grid" instance=ExtResource( 3 )]
 margin_left = 252.0
 margin_right = 312.0
 
-[node name="InventItem5" parent="Scroll/Grid" instance=ExtResource( 3 )]
+[node name="InventItem5" parent="Box/Scroll/Grid" instance=ExtResource( 3 )]
 margin_top = 36.0
 margin_right = 60.0
 margin_bottom = 68.0
 
-[node name="InventItem6" parent="Scroll/Grid" instance=ExtResource( 3 )]
+[node name="InventItem6" parent="Box/Scroll/Grid" instance=ExtResource( 3 )]
 margin_left = 84.0
 margin_top = 36.0
 margin_right = 144.0
 margin_bottom = 68.0
 
-[node name="InventItem7" parent="Scroll/Grid" instance=ExtResource( 3 )]
+[node name="InventItem7" parent="Box/Scroll/Grid" instance=ExtResource( 3 )]
 margin_left = 168.0
 margin_top = 36.0
 margin_right = 228.0
 margin_bottom = 68.0
 
-[node name="InventItem8" parent="Scroll/Grid" instance=ExtResource( 3 )]
+[node name="InventItem8" parent="Box/Scroll/Grid" instance=ExtResource( 3 )]
 margin_left = 252.0
 margin_top = 36.0
 margin_right = 312.0
 margin_bottom = 68.0
 
-[node name="InventItem9" parent="Scroll/Grid" instance=ExtResource( 3 )]
+[node name="InventItem9" parent="Box/Scroll/Grid" instance=ExtResource( 3 )]
 margin_top = 72.0
 margin_right = 60.0
 margin_bottom = 104.0
 
-[node name="InventItem10" parent="Scroll/Grid" instance=ExtResource( 3 )]
+[node name="InventItem10" parent="Box/Scroll/Grid" instance=ExtResource( 3 )]
 margin_left = 84.0
 margin_top = 72.0
 margin_right = 144.0
 margin_bottom = 104.0
+
+[node name="Buttons" type="VBoxContainer" parent="Box"]
+margin_left = 328.0
+margin_right = 410.0
+margin_bottom = 119.0
+size_flags_horizontal = 3
+
+[node name="Drop" type="Button" parent="Box/Buttons"]
+margin_right = 82.0
+margin_bottom = 20.0
+text = "Drop"
+
+[node name="Use" type="Button" parent="Box/Buttons"]
+margin_top = 24.0
+margin_right = 82.0
+margin_bottom = 44.0
+text = "Use"
